@@ -7825,12 +7825,12 @@ h6 {
   position: absolute;
   right: 0px;
   top: 30px;
-  background-color: #252eff;
+  background-color: #FFD28F;
   text-align: center;
-  color: #fff;
+  color: #000;
   border-radius: 5px;
   line-height: 10px;
-  border: 2px solid #252eff;
+  border: 2px solid #FFD28F;
 }
 
 /* line 125, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_footer.scss */
