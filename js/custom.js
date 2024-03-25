@@ -352,7 +352,7 @@ inputNumber($('.input-number'));
       }
   ]
   });  
- }
+ } 
     
 
 

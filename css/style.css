@@ -2180,12 +2180,12 @@ ul {
   max-width: 1140px;
   z-index: 999;
   text-align: center;
-  background: #ff3368;
+  background: #FFD28F;
 }
 
 /* line 60, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
 .main_menu #search_input_box ::placeholder {
-  color: #fff;
+  color: #000;
 }
 
 @media (max-width: 991px) {
@@ -2199,7 +2199,7 @@ ul {
 .main_menu #search_input_box .form-control {
   background: transparent;
   border: 0;
-  color: #ffffff;
+  color: #000;
   font-weight: 400;
   font-size: 15px;
   padding: 0;
@@ -2215,7 +2215,7 @@ ul {
 
 /* line 86, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
 .main_menu #search_input_box .ti-close {
-  color: #fff;
+  color: #000;
   font-weight: 600;
   cursor: pointer;
   padding: 10px;
@@ -2302,15 +2302,15 @@ ul {
   transform: scale(1, 0);
   display: block;
   border: 0px solid transparent;
-  background-color: #ff3368;
+  background-color: #38acac;
 }
 
 /* line 174, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
 .dropdown .dropdown-menu .dropdown-item {
   font-size: 14px;
   padding: 8px 20px !important;
-  color: #fff !important;
-  background-color: #ff3368;
+  color: #000 !important;
+  background-color: #38acac;
   text-transform: capitalize;
 }
 
@@ -8277,7 +8277,11 @@ h6 {
   }
 }
 
-.lomba_list .
+.btn-primary {
+  background-color: #FFD28F;
+  color: #000;
+  border-color: #FFD28F;
+}
 
 .lomba_list .pagination {
   display: flex;
@@ -8319,8 +8323,8 @@ h6 {
 }
 
 .lomba_list .pagination ul li.active {
-  color: #fff;
-  background-image: linear-gradient(#ff4568, #ff4568);
+  color: #8c8c8c;
+  background-image: linear-gradient(#FFD28F, #FFD28F);
   background-repeat: no-repeat;
 }
 
@@ -8340,3 +8344,4 @@ h6 {
   border-color: #FFD28F;
   width: 7rem
 }
+
